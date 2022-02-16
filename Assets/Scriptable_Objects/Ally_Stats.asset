@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 088bd0620e6fc47deb0ac86c6223a5fa, type: 3}
-  m_Name: Enemy_Stats
+  m_Name: Ally_Stats
   m_EditorClassIdentifier: 
-  _unitID: 1
-  _unitName: Enemy
-  _health: 5
-  _strength: 99
-  _defense: 100
-  _speed: 100
+  _unitID: 3
+  _unitName: Ally
+  _health: 60
+  _strength: 25
+  _defense: 5
+  _speed: 15

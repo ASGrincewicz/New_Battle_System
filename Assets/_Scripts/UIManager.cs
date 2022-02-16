@@ -17,7 +17,6 @@ public class UIManager:Singleton<UIManager>
         foreach(var child in _playerUIPanel.transform.GetComponentsInChildren<Button>())
         {
             _actionButtons.Add(child);
-            Debug.Log("Added Button");
         }
     }
 

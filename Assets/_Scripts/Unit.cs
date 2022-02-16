@@ -10,7 +10,7 @@ public class Unit: MonoBehaviour
     [SerializeField] private int _defense = 0;
     [SerializeField] private int _speed = 0;
     public int Health { get => _health; set => _health = value; }
-    public int Strenght { get => _strength; set => _strength = value; }
+    public int Strength { get => _strength; set => _strength = value; }
     public int Defense { get => _defense; set => _defense = value; }
     public int Speed { get => _speed; set => _speed = value; }
 

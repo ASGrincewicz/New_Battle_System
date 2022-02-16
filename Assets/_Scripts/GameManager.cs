@@ -1,7 +1,5 @@
-using System.Threading.Tasks;
-using UnityEngine;
 using System.Collections.Generic;
-using System.Linq;
+using UnityEngine;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -20,20 +18,5 @@ public class GameManager : Singleton<GameManager>
             _units.Add(pair.Value.UnitName);
         }
         _units.Reverse();
-    }
-    private void Start()
-    {
-       StartPlayerTurn();
-    }
-
-    private async void StartPlayerTurn()
-    {
-        while (!Input.GetKeyDown(KeyCode.Space))
-        {
-            await Task.Yield();
-        }
-
-       _isPlayerTurn = true;
-        Debug.Log("Player Turn");
     }
 }
