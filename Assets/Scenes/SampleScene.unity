@@ -436,6 +436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isPlayerTurn: 0
+  _units: []
 --- !u!4 &757964691
 Transform:
   m_ObjectHideFlags: 0
@@ -856,6 +857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _stats: {fileID: 11400000, guid: 1dd0523d858004778af658cd0a649e7e, type: 2}
+  _unitName: 
   _health: 0
   _strength: 0
   _defense: 0
@@ -1148,6 +1150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _stats: {fileID: 11400000, guid: 7f07a93c670074aa6b19ac2da8eefd27, type: 2}
+  _unitName: 
   _health: 0
   _strength: 0
   _defense: 0

@@ -4,6 +4,7 @@ public class Unit: MonoBehaviour
 {
     [Tooltip("Use a 'Unit_Stats' asset here.")]
     [SerializeField] private Unit_Stats _stats;
+    [SerializeField] private string _unitName = "";
     [SerializeField] private int _health = 0;
     [SerializeField] private int _strength = 0;
     [SerializeField] private int _defense = 0;
@@ -15,6 +16,7 @@ public class Unit: MonoBehaviour
 
     private void Awake()
     {
+        _unitName = _stats.UnitName;
         _health = _stats.Health;
         _strength = _stats.Strength;
         _defense = _stats.Defense;

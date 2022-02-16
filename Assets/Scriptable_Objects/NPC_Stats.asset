@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 088bd0620e6fc47deb0ac86c6223a5fa, type: 3}
-  m_Name: Player_Stats
+  m_Name: NPC_Stats
   m_EditorClassIdentifier: 
-  _unitID: 0
-  _unitName: Player
-  _health: 100
-  _strength: 45
-  _defense: 15
-  _speed: 10
+  _unitID: 2
+  _unitName: Shop Clerk
+  _health: 25
+  _strength: 1
+  _defense: 1
+  _speed: 1
